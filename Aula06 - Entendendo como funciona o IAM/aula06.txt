@@ -1,0 +1,9 @@
+IAM (Identity Access Management)
+
+USER - Criar, Remover, Editar, Conceder nivel de acesso, aplicar regras, permitir, bloquear, ou seja, aplicar regras, permissoes, colocar em grupos.
+
+MFA (Multi Factory Autenticator) - Metodo de dupla autenticação
+
+PASSWORD ROTATION - Configurar para os usuarios ou para um grupo trocar as senhas a cada determinado tempo.
+
+PCI DSS COMPLIANCE - Quando tem que fazer transação com cartão de credito precisa ser feito aqui.
