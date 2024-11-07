@@ -1,0 +1,8 @@
+AWS GLOBAL
+
+REGION -> SÃO PAULO
+1 região sempre tem dois datacenters
+
+AVAILABILITY ZONE -> DATA CENTERS (Função de um Data Center armazenar e hospedar)
+
+EDGE LOCATIONS -> DATA CENTERS MENORES (Função Caching, CDN, CloudFront)
