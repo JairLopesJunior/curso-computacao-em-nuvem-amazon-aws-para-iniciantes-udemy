@@ -1,0 +1,56 @@
+S3
+
+Quais são os Componentes?
+
+S3 é um OBJECT BASE, baseado em arquivos.
+O OBJECT BASE tem subcategorias, sempre que sobe um arquivo ele READ um arquivo e depois WRITE.
+
+KEY - Armazena baseado no nome do arquivo.
+VALUE - Dados do arquivo
+VERSION - Vesão
+METADATA - Armazenamento dos dados (Informações que ficam no HEAD do arquivo) Ex: TAG, LOCAL
+ACL - Relacionado ao arquivo
+
+
+Pode criar uma BUCKET para cada tipo de plano.
+
+S3 TIERS - Parte financeira
+
+- S3 STANDART 
+  - Padrão de armazenamento
+  - Garante 99.9% de disponibilidade
+  - Garante 99.99999999999 de durabilidade
+  - Acessado em tempo real, é replicado para outras zonas
+  - É cobrado por GB
+
+- S3 IA
+  - Para arquivos armazenados que não serão acessados com tanta frequencia
+  - Mais barato
+  - Toda vez que acessa o arquivo paga uma pequena FEE
+  - Armazenado em duas Zonas
+
+- S3 ONE ZONE
+  - Mais barato ainda
+  - Cobrado por uma pequena FEE
+  - Esta em apenas uma Zona
+
+- S3 GLACIER
+  - Serve para BACKUPS
+  - Muito barato mesmo
+  - É cobrado por cada acesso (RETRIEVAL pode demorar de 3 a 5 horas para estar disponivel)
+
+
+
+Como é cobrado o S3?
+
+- Pelo STORAGE por GB
+- Pelo REQUEST por Acesso (Se não for o STANDART)
+- STORAGE MANAGEMENT PRICE (TAG)
+- DTP - DATA TRANSFER PRICING (Transferencia se precisar de uma região para outra)
+- TRANSFER ACELERATIION - CDN ou CLOUDFRONT - Acessa o arquivo da sua região
+
+
+
+
+
+
