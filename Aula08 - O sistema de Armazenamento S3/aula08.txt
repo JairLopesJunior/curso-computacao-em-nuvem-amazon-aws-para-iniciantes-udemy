@@ -1,0 +1,16 @@
+Amazon S3
+
+SIMPLE STORAGE SERVICE
+
+
+Pra que serve o S3?
+
+- Criado para armazenar arquivos (MP4, DOCs, JPG, etc)
+- Limite de 5 tera por arquivo
+- STORAGE é ilimitado - Paga por GB
+- BUCKETS - Seria os discos e pode subdividir em Folders (Nome da BUCKETS é UNIQUE mundialmente)
+- AVALIABILITY (Disponibilidade) - 99.9%
+- DURABILITY (Integridade) - 99.99999999999
+- TIERS (Diferentes Preços)
+- VERSIONING - Pode realizar um upload hoje e alterar no dia seguinte, no proximo altera novamente e terá todas as versoes dos arquivos.
+- ENCRIPTION (Arquivos Seguros)
